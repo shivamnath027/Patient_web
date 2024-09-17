@@ -1,0 +1,203 @@
+﻿@model PagedList.IPagedList<PatientInformationSystem.Models.Patient>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "View Patients";
+}
+
+<style>
+    .forflex {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .form-inline .form-group {
+        margin-right: 10px;
+    }
+
+    .form-inline {
+        margin-bottom: 15px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+</style>
+
+
+
+<h2 class="text-center">Patient Records</h2>
+<br />
+<table style="width: 100%; border: none;">
+    <thead>
+        @*<tr>
+            <th style="text-align: left;">Search</th>
+            <th style="text-align: left;">Date From</th>
+            <th style="text-align: left;">Date To</th>
+        </tr>*@
+    </thead>
+    <tbody>
+        <tr>
+            <td class="forflex">
+                <div>
+                    <h6>Search</h6>
+                    <form method="get" action="@Url.Action("ViewPatients", "Home")" class="form-inline">
+                        <div class="form-group">
+                            <input type="text" name="searchString" value="@ViewBag.CurrentFilter" placeholder="Search by name" class="form-control" />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </form>
+                </div>
+                <div>
+                    <h6>Date From</h6>
+                    <form method="get" action="@Url.Action("ViewPatients", "Home")" class="form-inline">
+                        <div class="form-group">
+                            <input type="date" name="dateFrom" value="@ViewBag.CurrentDateFrom" class="form-control" />
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <h6>Date To</h6>
+                    <form method="get" action="@Url.Action("ViewPatients", "Home")" class="form-inline">
+                        <div class="form-group">
+                            <input type="date" name="dateTo" value="@ViewBag.CurrentDateTo" class="form-control" />
+
+                        </div>
+                        <button type="submit" class="btn btn-primary">Filter</button>
+                    </form>
+                </div>
+            @*</td>
+            <td>
+                
+            </td>
+            <td>*@
+                
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+
+@if (ViewBag.Message != null)
+{
+    <div style="color:red; text-align:center;">
+        @ViewBag.Message
+    </div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Address</th>
+                <th>Blood Group</th>
+                <th>Email Address</th>
+                <th>Phone Number</th>
+                <th>Doctor Referred</th>
+                <th>Height</th>
+                <th>BMI</th>
+                <th>Marital Status</th>
+                <th>Allergies</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var patient in Model)
+            {
+                <tr>
+                    <td>@patient.ID</td>
+                    <td>@patient.Name</td>
+                    <td>@patient.Gender</td>
+                    <td>@patient.Address</td>
+                    <td>@patient.BloodGroup</td>
+                    <td>@patient.EmailAddress</td>
+                    <td>@patient.PhoneNumber</td>
+                    <td>@patient.DoctorReferred</td>
+                    <td>@patient.Height</td>
+                    <td>@patient.BMI</td>
+                    <td>@patient.MaritalStatus</td>
+                    <td>@patient.Allergies</td>
+                    <td>@patient.Date.ToString("yyyy-MM-dd")</td>
+                    <td>
+                        @using (Html.BeginForm("DeletePatient", "Home", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.Hidden("id", patient.ID)
+                            <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete?')" class="btn btn-danger" />
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="text-center">
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+                @if (Model.HasPreviousPage)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="@Url.Action("ViewPatients", new { page = Model.PageNumber - 1, searchString = ViewBag.CurrentFilter })" aria-label="Previous">
+                            Previous
+                        </a>
+                    </li>
+                }
+                else
+                {
+                    <li class="page-item disabled">
+                        <span class="page-link">Previous</span>
+                    </li>
+                }
+
+                @for (var i = 1; i <= Model.PageCount; i++)
+                {
+                    if (i == Model.PageNumber)
+                    {
+                        <li class="page-item active">
+                            <span class="page-link">@i</span>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="@Url.Action("ViewPatients", new { page = i, searchString = ViewBag.CurrentFilter })">@i</a>
+                        </li>
+                    }
+                }
+
+                @if (Model.HasNextPage)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="@Url.Action("ViewPatients", new { page = Model.PageNumber + 1, searchString = ViewBag.CurrentFilter })" aria-label="Next">
+                            Next
+                        </a>
+                    </li>
+                }
+                else
+                {
+                    <li class="page-item disabled">
+                        <span class="page-link">Next</span>
+                    </li>
+                }
+            </ul>
+
+        </nav>
+    </div>
+}
+
+<div class="text-center">
+    <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Back</a>
+</div>

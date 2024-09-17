@@ -1,0 +1,274 @@
+﻿@model PatientInformationSystem.Models.Patient
+
+@{
+    ViewBag.Title = "Patient Information System";
+    var genderOptions = ViewBag.GenderOptions as List<PatientInformationSystem.Models.GenderOption>;
+}
+
+<h2 class="text-center">Patient Information System</h2>
+<style>
+    .form-group {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .form-control {
+        display: inline-block;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+
+    .d {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 160px;
+        margin-left: 60px;
+        background-color: gainsboro;
+        font-weight: bold;
+    }
+
+    .s {
+        margin-left: 60px;
+    }
+
+    .background-container {
+        background-image: url('/Content/P_v.jpg');
+        background-size: 50%;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding: 40px 0;
+        border: 10px solid white;
+    }
+
+    .form-container {
+        max-width: 600px;
+        margin: 0 0 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: white;
+    }
+
+    .control-label:after {
+        content: " *";
+        color: red;
+    }
+</style>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="background-container">
+        <div class="form-container">
+            <h4 class="text-center">Please fill below details</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, new { @class = "control-label" })
+                <div class="col-md-10 d">
+                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Gender, new { @class = "control-label" })
+                <div class="col-md-10 d">
+                    @foreach (var genderOption in genderOptions)
+                    {
+                        <label>
+                            @Html.RadioButtonFor(model => model.Gender, genderOption.Gender) @genderOption.Gender
+                        </label>
+                    }
+                    @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Address, new { @class = "control-label" })
+                <div class="col-md-10 d">
+                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.BloodGroup, new { @class = "control-label" })
+                <div class="col-md-10 d">
+                    @Html.EditorFor(model => model.BloodGroup, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.BloodGroup, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.EmailAddress, new { @class = "control-label" })
+                <div class="col-md-10 d">
+                    @Html.EditorFor(model => model.EmailAddress, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.EmailAddress, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.PhoneNumber, new { @class = "control-label" })
+                <div class="col-md-10 d">
+                    @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.DoctorReferred, new { @class = "control-label" })
+                <div class="col-md-10 d">
+                    @Html.EditorFor(model => model.DoctorReferred, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.DoctorReferred, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Height, new { @class = "control-label" })
+                <div class="col-md-10 d">
+                    @Html.EditorFor(model => model.Height, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Height, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.BMI, new { @class = "control-label" })
+                <div class="col-md-10 d">
+                    @Html.EditorFor(model => model.BMI, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.BMI, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.MaritalStatus, new { @class = "control-label" })
+                <div class="col-md-10 d" style="text-align:center">
+                    @Html.DropDownListFor(model => model.MaritalStatus, new SelectList(ViewBag.MaritalStatusOptions, "Status", "Status"), new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.MaritalStatus, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Allergies, new { @class = "control-label" })
+                <div class="col-md-10 d" style="text-align:center">
+                    <label><input type="checkbox" name="allergies" value="Milk" /> Milk</label>
+                    <label><input type="checkbox" name="allergies" value="Peanut" /> Peanut</label>
+                    <label><input type="checkbox" name="allergies" value="Egg" /> Egg</label>
+                    <label><input type="checkbox" name="allergies" value="Fish" /> Fish</label>
+                    <label><input type="checkbox" name="allergies" value="No Allergies" /> No Allergies</label>
+                    @Html.ValidationMessageFor(model => model.Allergies, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <input type="hidden" id="Allergies" name="Allergies" />
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Date, new { @class = "control-label" })
+                <div class="col-md-10 d">
+                    @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control", @type = "date" } })
+                    @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-md-15 col-md-offset-2">
+                    <br />
+
+                    <input type="submit" value="Save" class="btn btn-dark" style="text-align: center;" />
+                    @if (ViewBag.Message != null)
+                    {
+                        <div style="color:forestgreen">
+                            @ViewBag.Message
+                        </div>
+                    }
+
+                    <br />
+                    <a href="@Url.Action("ViewPatients", "Home")" class="btn btn-info" style="text-align: center;">View</a>
+                    <button type="button" onclick="clearForm()" class="btn btn-secondary" style="text-align: center;">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    /*<script>
+        document.querySelectorAll('form').addEventListener('submit', function () {
+            var selectedAllergies = [];
+            document.querySelectorAll('input[name="allergies"]:checked').forEach(function (checkbox) {
+                selectedAllergies.push(checkbox.value);
+            });
+            document.getElementById('Allergies').value = selectedAllergies.join(',');
+        });
+    </script> */
+
+
+
+    <script>
+        function clearForm() {
+            document.querySelector('form').reset();
+        }
+        /*
+        document.querySelectorA('form').addEventListener('submit', function (event) {
+            var selectedAllergies = [];
+            document.querySelectorAll('input[type="checkbox"]').forEach(function (checkbox) {
+                if (checkbox.checked) { 
+                    selectedAllergies.push(checkbox.value);
+                }
+            });
+            document.getElementId('Allergies').value = selectedAllergies.join(', ');
+        });
+        */
+        document.querySelector('form').addEventListener('submit', function (event) {
+            var selectedAllergies = '';
+            document.querySelectorAll('input[type="checkbox"]').forEach(function (checkbox) {
+                if (checkbox.checked) {
+                    if (selectedAllergies != '') {
+                        selectedAllergies = ', ' + checkbox.value;
+                    }
+                    else {
+                        selectedAllergies += checkbox.value;
+                    }
+                    alert(SelectedAllergies);
+                }
+            });
+            document.getElementById('Allergies').value = selectedAllergies;
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+    <!-- <script>
+         //document.querySelector('form').addEventListener('submit', function () {
+         var selectedAllergies = [];
+         var st = '';
+         document.querySelectorAll('input[name="allergies"]:checked').forEach(function (checkbox) {
+             //selectedAllergies.push(checkbox.value);
+
+             //checkbox.value += st + ',';
+             st += checkbox.value + ',';
+         };
+         //document.getElementById('Allergies').value = selectedAllergies.join(',');
+         document.getElementById('Allergies').value = st;
+         //const checkboxes = document.querySelectorAll('.Allergies');
+         //checkboxes.forEach(checkbox => {
+         //if (checkbox.checked) {
+         //    st += checkbox.value;
+         //}
+         //document.getElementById('Allergies').value = st;
+         //});
+         console.log(st);
+         //}
+     </script>
+        -->
+}
