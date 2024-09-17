@@ -124,7 +124,7 @@ namespace PatientInformationSystem.Controllers
 
             return View(pagedPatients);
         }
-
+// Writing this line to check if Push pull is working fine
 
 
 

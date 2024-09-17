@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|c:\\users\\52470252\\desktop\\patient_web\\patient\\patient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|c:\\users\\52470252\\desktop\\patient_web\\patient\\patient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\views\\home\\viewpatients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
@@ -90,8 +90,7 @@
               "RelativeToolTip": "patient\\Migrations\\202409110529092_UpdateDatabaseSchema.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T05:29:17.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T05:29:17.741Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "patient\\Models\\GenderOption.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T05:19:05.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T05:19:05.491Z"
             },
             {
               "$type": "Document",
@@ -116,8 +114,7 @@
               "RelativeToolTip": "patient\\Migrations\\202409100500534_AddMaritalStatusOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T05:01:00.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T05:01:00.937Z"
             },
             {
               "$type": "Document",
@@ -129,8 +126,7 @@
               "RelativeToolTip": "patient\\Models\\MaritalStatusOption.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T04:55:11.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T04:55:11.368Z"
             },
             {
               "$type": "Document",
@@ -142,8 +138,7 @@
               "RelativeToolTip": "patient\\App_Start\\RouteConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T04:26:06.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T04:26:06.265Z"
             },
             {
               "$type": "Document",
@@ -155,8 +150,7 @@
               "RelativeToolTip": "patient\\Views\\Home\\ViewPatients.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T04:25:32.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T04:25:32.393Z"
             },
             {
               "$type": "Document",
@@ -168,8 +162,7 @@
               "RelativeToolTip": "patient\\Migrations\\202409060549269_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T05:49:33.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T05:49:33.424Z"
             },
             {
               "$type": "Document",
@@ -181,8 +174,7 @@
               "RelativeToolTip": "patient\\Migrations\\Configuration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T05:48:46.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T05:48:46.437Z"
             },
             {
               "$type": "Document",
@@ -194,8 +186,7 @@
               "RelativeToolTip": "patient\\Models\\Patient.cs",
               "ViewState": "AQIAACAAAAAAAAAAAADwvzIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T03:37:56.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T03:37:56.955Z"
             },
             {
               "$type": "Document",
@@ -207,8 +198,7 @@
               "RelativeToolTip": "patient\\Models\\PatientDBContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T05:28:34.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T05:28:34.581Z"
             },
             {
               "$type": "Document",
@@ -225,26 +215,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "patient\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "patient\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAwwLEAAAAAAAAA",
+              "ViewState": "AQIAANsAAAAAAAAAAAAAABEBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-22T07:03:46.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "patient\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Controllers\\HomeController.cs",
               "RelativeToolTip": "patient\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAADwv34AAAAAAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAiwH4AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T06:53:08.584Z",
               "EditorCaption": ""
