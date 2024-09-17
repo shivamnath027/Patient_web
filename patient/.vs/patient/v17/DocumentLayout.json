@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|c:\\users\\52470252\\desktop\\patient_web\\patient\\patient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|c:\\users\\52470252\\desktop\\patient_web\\patient\\patient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -223,8 +223,7 @@
               "RelativeToolTip": "patient\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAANsAAAAAAAAAAAAAABEBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T07:03:46.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T07:03:46.452Z"
             },
             {
               "$type": "Document",
