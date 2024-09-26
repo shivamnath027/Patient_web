@@ -3,7 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|c:\\users\\52470252\\desktop\\patient_web\\patient\\patient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|c:\\users\\52470252\\desktop\\patient_web\\patient\\patient\\views\\home\\viewpatients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\views\\home\\viewpatients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\models\\genderoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\models\\genderoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\models\\maritalstatusoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\models\\maritalstatusoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\migrations\\202409110529092_updatedatabaseschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\migrations\\202409110529092_updatedatabaseschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\migrations\\202409060549269_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\migrations\\202409060549269_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\models\\patientdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\models\\patientdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,48 +51,8 @@
       "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\views\\home\\viewpatients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\views\\home\\viewpatients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\migrations\\202409110529092_updatedatabaseschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\migrations\\202409110529092_updatedatabaseschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\models\\maritalstatusoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\models\\maritalstatusoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\migrations\\202409100500534_addmaritalstatusoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\migrations\\202409100500534_addmaritalstatusoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\migrations\\202409060549269_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\migrations\\202409060549269_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\models\\genderoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\models\\genderoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\models\\patientdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\models\\patientdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|solutionrelative:patient\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{332F4B21-8410-4A54-ACD7-DB66C23D20CC}|patient\\patient.csproj|C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\migrations\\202409060622156_addallergiesfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,8 +66,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Web.config",
+              "RelativeDocumentMoniker": "patient\\Web.config",
+              "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Web.config",
+              "RelativeToolTip": "patient\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-06T04:50:55.001Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 13,
@@ -82,19 +95,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "202409110529092_UpdateDatabaseSchema.cs",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Migrations\\202409110529092_UpdateDatabaseSchema.cs",
               "RelativeDocumentMoniker": "patient\\Migrations\\202409110529092_UpdateDatabaseSchema.cs",
               "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Migrations\\202409110529092_UpdateDatabaseSchema.cs",
               "RelativeToolTip": "patient\\Migrations\\202409110529092_UpdateDatabaseSchema.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T05:29:17.741Z"
+              "WhenOpened": "2024-09-11T05:29:17.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "GenderOption.cs",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Models\\GenderOption.cs",
               "RelativeDocumentMoniker": "patient\\Models\\GenderOption.cs",
@@ -102,11 +116,12 @@
               "RelativeToolTip": "patient\\Models\\GenderOption.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T05:19:05.491Z"
+              "WhenOpened": "2024-09-11T05:19:05.491Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "202409100500534_AddMaritalStatusOptions.cs",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Migrations\\202409100500534_AddMaritalStatusOptions.cs",
               "RelativeDocumentMoniker": "patient\\Migrations\\202409100500534_AddMaritalStatusOptions.cs",
@@ -118,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MaritalStatusOption.cs",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Models\\MaritalStatusOption.cs",
               "RelativeDocumentMoniker": "patient\\Models\\MaritalStatusOption.cs",
@@ -126,11 +141,12 @@
               "RelativeToolTip": "patient\\Models\\MaritalStatusOption.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T04:55:11.368Z"
+              "WhenOpened": "2024-09-10T04:55:11.368Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "patient\\App_Start\\RouteConfig.cs",
@@ -138,102 +154,96 @@
               "RelativeToolTip": "patient\\App_Start\\RouteConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T04:26:06.265Z"
+              "WhenOpened": "2024-09-09T04:26:06.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ViewPatients.cshtml",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Views\\Home\\ViewPatients.cshtml",
               "RelativeDocumentMoniker": "patient\\Views\\Home\\ViewPatients.cshtml",
               "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Views\\Home\\ViewPatients.cshtml",
               "RelativeToolTip": "patient\\Views\\Home\\ViewPatients.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAAaAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T04:25:32.393Z"
+              "WhenOpened": "2024-09-09T04:25:32.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "202409060549269_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Migrations\\202409060549269_InitialCreate.cs",
               "RelativeDocumentMoniker": "patient\\Migrations\\202409060549269_InitialCreate.cs",
               "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Migrations\\202409060549269_InitialCreate.cs",
               "RelativeToolTip": "patient\\Migrations\\202409060549269_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABRAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T05:49:33.424Z"
+              "WhenOpened": "2024-09-06T05:49:33.424Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "patient\\Migrations\\Configuration.cs",
               "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Migrations\\Configuration.cs",
               "RelativeToolTip": "patient\\Migrations\\Configuration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T05:48:46.437Z"
+              "WhenOpened": "2024-09-06T05:48:46.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "patient\\Models\\Patient.cs",
               "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Models\\Patient.cs",
               "RelativeToolTip": "patient\\Models\\Patient.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAADwvzIAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T03:37:56.955Z"
+              "WhenOpened": "2024-08-23T03:37:56.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "PatientDBContext.cs",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Models\\PatientDBContext.cs",
               "RelativeDocumentMoniker": "patient\\Models\\PatientDBContext.cs",
               "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Models\\PatientDBContext.cs",
               "RelativeToolTip": "patient\\Models\\PatientDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T05:28:34.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Web.config",
-              "RelativeDocumentMoniker": "patient\\Web.config",
-              "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Web.config",
-              "RelativeToolTip": "patient\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-06T04:50:55.001Z",
+              "WhenOpened": "2024-09-06T05:28:34.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "patient\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "patient\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAANsAAAAAAAAAAAAAABEBAAABAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T07:03:46.452Z"
+              "WhenOpened": "2024-08-22T07:03:46.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "patient\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\52470252\\Desktop\\Patient_web\\patient\\patient\\Controllers\\HomeController.cs",
               "RelativeToolTip": "patient\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAiwH4AAAA6AAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwHAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T06:53:08.584Z",
               "EditorCaption": ""
